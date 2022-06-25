@@ -1,1 +1,131 @@
-  !
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 12vh;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(191, 188, 188);
+}
+
+.main {
+  display: flex;
+  width: 100vw;
+  height: 60vh;
+  background-color: transparent;
+}
+
+.article {
+  display: flex;
+  width: 66vw;
+  height: 60vh;
+  background-color: rgb(244, 245, 196);
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.other-articles {
+  display: flex;
+  width: 66vw;
+  height: 25vh;
+  background-color: transparent;
+  align-self: flex-end;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+
+}
+
+
+.other-article1 {
+  display: flex;
+
+  width: 31vw;
+  height: 10vh;
+  background-color: rgb(249, 235, 134);
+  margin: 5px 10px 5px 10px;
+
+
+  justify-content: center;
+  align-items: center;
+
+}
+
+.other-article2 {
+  display: flex;
+
+  width: 31vw;
+  height: 10vh;
+  background-color: rgb(249, 235, 134);
+  margin: 5px 10px 5px 10px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.other-article3 {
+  display: flex;
+
+  width: 64vw;
+  height: 10vh;
+  background-color: rgb(249, 235, 134);
+  margin: 10px;
+
+
+  justify-content: center;
+  align-items: center;
+}
+
+.aside {
+  display: flex;
+  width: 35vw;
+  height: 60vh;
+  background-color: rgb(191, 233, 159);
+  justify-content: center;
+  align-items: flex-start;
+}
+
+
+.mainpart {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.page-up {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.sidepart {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.container3 {
+  display: inline-flex;
+  width: 100%;
+  height: 15vh;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(191, 188, 188);
+}
+
+
+.footer {
+  display: flex;
+
+  width: 31vw;
+  height: 10vh;
+  background-color: white;
+  margin: 5px 10px 5px 10px;
+
+  justify-content: center;
+  align-items: center;
+}
